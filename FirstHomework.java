@@ -1,8 +1,9 @@
-//
-//	Home work #1
-//
-//	Andrei Boiko
-//
+/**
+*   Java 1. Homework #1
+*
+*   @author Andrei Boiko
+*   @version 10/12/2021
+*/
 class FirstHomework {
     public static void main(String[] args) {
         printThreeWords();
