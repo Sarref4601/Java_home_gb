@@ -6,17 +6,17 @@
 */
 class FirstHomework {
     public static void main(String[] args) {
-        printThreeWords();
-        checkSumSign();
-        printColor();
-        compareNumbers();
+            printThreeWords();
+            checkSumSign();
+            printColor();
+            compareNumbers();
         
     }
         static void printThreeWords() {
-            System.out.println("1)----------");
-            System.out.println("Orange");
-            System.out.println("Banana");
-            System.out.println("Apple");
+                System.out.println("1)----------");
+                System.out.println("Orange");
+                System.out.println("Banana");
+                System.out.println("Apple");
         }
         
         static void checkSumSign() {
