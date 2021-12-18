@@ -1,41 +1,14 @@
 /**
- *   Java 1. Homework #2
+ *   Java 1. Homework #3
  *
  *   @author Andrei Boiko
- *   @version 14/12/2021
+ *   @version 16/12/2021
  */
-class SecondHomework {
+class ThirdHomework {
     public static void main(String[]args) {
-
-            System.out.println("1----------");
-            System.out.println(checkSumm(5, 4));
-
-            checkNum(5);
-
-            System.out.println("3----------");
-            System.out.println(checkNumReturnReverse(-1));
-
-            printMyText("Hello Sergey!", 5);
-    }
-
-    static boolean checkSumm(int a, int b) {
-        return (a + b) >= 10 && (a + b) <= 20;
-    }
-
-    static void checkNum(int a) {
-
-            System.out.println("2----------");
-            System.out.println("Num is " + (a >= 0 ? "positive" : "negative"));
-    }
-
-    static boolean checkNumReturnReverse(int a) {
-        return a <= 0;
-    }
-
-    public static void printMyText(String text, int a) {
-            System.out.println("4----------");
-        for (int i = 0; i < a; i++) {
-            System.out.println(text);
+        int[] arr = { 1, 0, 1, 0, 0, 1 };
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i] + i);
         }
     }
 }
