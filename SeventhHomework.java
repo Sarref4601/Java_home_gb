@@ -13,7 +13,7 @@ class SeventhHomework {
             new Cat("Pusik", 20),
             new Cat("Tom", 20),
         };
-        Plate plate = new Plate(40);
+        Plate plate = new Plate(50);
         System.out.println(plate);
 
         for (Cat cat : cats) {
@@ -26,7 +26,7 @@ class SeventhHomework {
         System.out.println(plate);
 
         for (Cat cat : cats) {
-            cat.isFullness(false);
+            cat.setFullness(false);
             cat.eat(plate);
             System.out.println(cat);
         }
@@ -52,7 +52,7 @@ class Cat {
         }
     }
 
-    public void isFullness(boolean status) {
+    public void setFullness(boolean status) {
         fullness = status;
     }
 
@@ -63,7 +63,6 @@ class Cat {
 }
 
 class Plate {
-    private int count;
     private int food;
 
     Plate(int food) {
