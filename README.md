@@ -1,4 +1,3 @@
-# Java_home_gb
 /**
 1.Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
 Orange
